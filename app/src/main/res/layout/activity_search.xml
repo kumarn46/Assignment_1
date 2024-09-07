@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B3E5FC"
+    tools:context=".Search">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#5b68a1"
+        android:padding="10dp">
+
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/back"
+            android:contentDescription="Back"
+            android:layout_marginEnd="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="Search"
+            android:layout_marginStart="270sp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:layout_width="390dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="30dp"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/search"
+            android:hint="Enter the Deal or Category name"
+            android:inputType="text"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#BBDEFB">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Deals"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#1E3D7A"
+            android:padding="5dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:text="Queenstown"
+            android:textSize="20sp"
+            android:background="#565656"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:text="Rotorua"
+            android:textSize="20sp"
+            android:background="#565656"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:text="Christchurch"
+            android:textSize="20sp"
+            android:background="#565656"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#BBDEFB">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Available Categories"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#1E3D7A"
+            android:padding="5dp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:text="Destination"
+            android:textSize="20sp"
+            android:background="#565656"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:text="Accommodation"
+            android:textSize="20sp"
+            android:background="#565656"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_width="250sp"
+            android:layout_height="48dp"
+            android:text="Activities"
+            android:textSize="20sp"
+            android:background="#565656"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:orientation="horizontal"
+        android:background="#5b68a1"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80sp"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/btn_home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/home_icon"
+            android:contentDescription="Home"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
